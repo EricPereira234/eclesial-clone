@@ -1,6 +1,18 @@
 
+//importando arquivos
+import Hedear from "../Header";
+import Body from "../Body";
+import Footer from "../Footer";
+
+
 export default function Home(){
     return (
-        <h1>Home</h1>
+        <>
+        
+            <Hedear/>
+            <Body/>
+            <Footer/>
+        
+        </>
     )
 }

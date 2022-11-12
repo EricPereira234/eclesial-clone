@@ -1,6 +1,3 @@
-body{
-    background-color: #2494b357;
-}
 
 .card-login {
     display: flex;
@@ -99,4 +96,35 @@ body{
 .card-login button:hover {
     background-color: #03a803;
     border: 3px solid #008faf;
+}
+
+/* tela menor */
+@media screen and (max-width:  768px) {
+
+.card-login{
+    flex-direction: column;
+    width: 90%;
+    height: 80%;
+}
+
+.card-login .card-input{
+    width: 100%;
+    margin: 0;
+    border-radius: 0 0 6px 6px;
+}
+
+.card-login label {
+    margin-top: 30px;
+}
+
+.card-login input {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.card-login a {
+    padding: 5px 0;
+}
+    
 }
