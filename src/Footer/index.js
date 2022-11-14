@@ -1,5 +1,7 @@
+import "./footer.css";
+
 export default function Footer(){
     return (
-        <h1>Footer</h1>
+        <footer><p>Eclesial-clone</p></footer>
     )
 }

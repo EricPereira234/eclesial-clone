@@ -1,5 +1,22 @@
+import "./body.css";
 
+export default function Corpo() {
+    return (
+        <div className="card-body" >
 
-export default function Corpo(){
-    return <h1>Corpo</h1>
+            <div className="card-body-item" >
+             ...
+            </div>
+            <div className="card-body-item" >
+             .....
+            </div>
+            <div className="card-body-item" >
+            ......
+            </div>
+            <div className="card-body-item" >
+            ......
+            </div>
+
+        </div>
+    )
 }
