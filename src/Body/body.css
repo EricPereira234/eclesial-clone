@@ -1,13 +1,50 @@
 
 .card-body {
     width: 100%;
-    height: 100%;
     margin: auto;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
 
-.card-body .card-body-item {
+.card-body .card-body-item1 {
+    width: 250px;
+    height: 70px;
+    margin: 10px 20px;
+    background-color: #f2f3f3;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #d0dbea;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    border-left: 3px solid #ff9100;
+}
+.card-body .card-body-item2 {
+    width: 250px;
+    height: 70px;
+    margin: 10px 20px;
+    background-color: #f2f3f3;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #d0dbea;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    border-left: 3px solid #ffc400;
+}
+.card-body .card-body-item3 {
+    width: 250px;
+    height: 70px;
+    margin: 10px 20px;
+    background-color: #f2f3f3;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #d0dbea;
+    display: flex;
+    padding-top: 10px;
+    justify-content: left;
+    padding-left: 10px;
+    border-left: 3px solid rgb(58, 47, 155);
+}
+.card-body .card-body-item4 {
     width: 250px;
     height: 70px;
     margin: 10px 20px;
@@ -15,3 +52,21 @@
     border-radius: 4px;
     box-shadow: 5px 5px 8px #d0dbea;
 }
+
+strong{
+    display: flex;
+    margin-left: 5px;
+    flex-direction: column;
+    color: #24677c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+strong label {
+    color: #24677c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+

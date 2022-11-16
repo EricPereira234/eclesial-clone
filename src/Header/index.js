@@ -3,7 +3,7 @@ import "./Hedear.css";
 //importando iconies
 import { BsGearFill } from "react-icons/bs";
 import { BsPerson } from "react-icons/bs";
-import { BsArrowBarRight } from "react-icons/bs";
+import { MdOutlineLogout } from "react-icons/md";
 
 //importando arquivos
 import logoMenor from "../img/logoMenor.png";
@@ -23,7 +23,7 @@ export default function Hedear(){
                 </Icones>
 
                 <p>Eric Pereira</p>
-                <a href="/" ><BsArrowBarRight size={25} /><br />sair</a>
+                <a href="/" ><MdOutlineLogout size={25} /><br />sair</a>
             </header>
 
             <div className="card-data">
