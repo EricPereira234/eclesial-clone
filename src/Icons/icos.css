@@ -2,3 +2,14 @@
  padding-left: 66%;
  margin: 0 5px;
 }
+
+
+/* tela menor */
+@media screen and (max-width: 868px) {
+    .card-ico{
+        padding-left: 45%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+}

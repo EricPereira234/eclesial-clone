@@ -4,6 +4,7 @@ import "./body.css";
 import { FcContacts } from "react-icons/fc";
 import { FcBusinessman } from "react-icons/fc";
 import { AiOutlineWifi } from "react-icons/ai";
+import { FcGraduationCap } from "react-icons/fc";
 
 export default function Corpo() {
     return (
@@ -35,7 +36,11 @@ export default function Corpo() {
             </div>
 
             <div className="card-body-item4" >
-                ......
+                <FcGraduationCap size={35} color={'blue'} />
+                <strong>
+                    UniTheòs
+                    <label>Conecta você ao conhecimento</label>
+                </strong>
             </div>
 
         </div>
