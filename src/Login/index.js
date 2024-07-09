@@ -9,25 +9,36 @@ export default function Login() {
     const [senha, setSenha] = useState();
 
     return (
-        <div className="card-login">
-            <img src={Logo} />
-            <div className='card-input'>
+        <div className='card-geral-login' >
+            <div className='case-cardLogin--logo-theos' >
+                <div className="card-login">
+                    <div className='card-logo-login' >
+                        <img src={Logo} />
+                    </div>
+                    <div className='card-input'>
 
-                <p>Faça login na sua conta.</p>
+                        <p>Faça login na sua conta.</p>
 
-                <label>Email</label>
-                <input type={'email'} value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                />
-                <label>Senha</label>
-                <input type={'password'} value={senha}
-                    onChange={(e) => setSenha(e.target.value)}
-                />
-                <button onClick={Logar} >Entrar</button>
-                <a>Esqueceu sua senha?</a>
+                        <label>Email</label>
+                        <input type={'email'} value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                        />
+                        <label>Senha</label>
+                        <input type={'password'} value={senha}
+                            onChange={(e) => setSenha(e.target.value)}
+                        />
+                        <button onClick={Logar} >Entrar</button>
+                        <a>Esqueceu sua senha?</a>
 
+                    </div>
+
+                </div>
+                <div className='logo-theos' ></div>
             </div>
+
+
         </div>
+
     )
 
     function Logar() {
