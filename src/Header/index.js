@@ -4,10 +4,12 @@ import "./Hedear.css";
 import { BsGearFill } from "react-icons/bs";
 import { BsPerson } from "react-icons/bs";
 import { MdOutlineLogout } from "react-icons/md";
+import { TfiReload } from "react-icons/tfi";
 
-//importando arquivos
+//importando arquivos internos
 import logoMenor from "../img/logoMenor.png";
 import Icones from "../Icons";
+
 
 
 export default function Hedear(){
@@ -28,6 +30,7 @@ export default function Hedear(){
 
             <div className="card-data">
                 <b>Período Corrente</b>
+                <TfiReload/>
             </div>
 
         </div>
